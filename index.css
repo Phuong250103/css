@@ -1,0 +1,15 @@
+/* css theo id */
+#tieu_de { 
+    color: green;
+    font-weight: bold;
+}
+/* css theo class */
+.tieu_de {
+    color: blue;
+    font-weight: bold;
+}
+/* css theo thứ câp */
+#menu ul ul > p{
+    background: red;
+    color: white;
+}
