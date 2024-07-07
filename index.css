@@ -9,7 +9,7 @@
     font-weight: bold;
 }
 /* css theo thứ câp */
-#menu ul ul > p{
+#menu ul ul > p{ /* ul > P chỉ những thẻ ngay sau ul 1 bậc */
     background: red;
     color: white;
 }
