@@ -1,6 +1,9 @@
 div {
-    width: 150px;
-    height: 150px;
+    width: 650px;
+    height: 650px;
+    background-image: url(https://www.vietnamworks.com/hrinsider/wp-content/uploads/2023/12/hinh-nen-dien-thoai-35.jpg);
+    background-repeat: repeat; /* Lặp ảnh */
+    background-size: 200px 200px;
 }
 
 #box1 {
@@ -15,3 +18,9 @@ div {
     border: 5px solid red; /*viền*/
     padding: 45px;
 }
+/* * là dùng cho toàn bộ */
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; /* dùng trong trình duyệt Firefox cũ */
+    -webkit-box-sizing: border-box; /*dùng trong Chomre, Opera cũ */
+ }
