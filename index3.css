@@ -1,9 +1,8 @@
 div {
-    width: 650px;
-    height: 650px;
+    width: 960px;
     background-image: url(https://www.vietnamworks.com/hrinsider/wp-content/uploads/2023/12/hinh-nen-dien-thoai-35.jpg);
-    background-repeat: repeat; /* Lặp ảnh */
-    background-size: 200px 200px;
+    background-repeat: no-repeat; /* Lặp ảnh */
+    background-size: auto;
 }
 
 #box1 {
@@ -23,4 +22,23 @@ div {
     box-sizing: border-box;
     -moz-box-sizing: border-box; /* dùng trong trình duyệt Firefox cũ */
     -webkit-box-sizing: border-box; /*dùng trong Chomre, Opera cũ */
+ }
+ .container{
+    width: 960px;
+    margin: 0 auto;
+    border: 1px solid blueviolet;
+    padding: 2em;
+ }
+ #content{
+    overflow: auto; /* Chia cột */
+ }
+ #post{
+    width: 560px;
+    height: 300px;
+    float: left;
+ }
+ #sidebar{
+    width: 300px;
+    height: 300px;
+    float: right;
  }
