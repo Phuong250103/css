@@ -13,3 +13,13 @@
     background: red;
     color: white;
 }
+
+li{
+    list-style-type: square; /* Thay đổi loại hiện thị đứng trc danh sách */
+    list-style-position: outside; /*Tùy chỉnh vị trí hiển thị các dấu đầu dòng của mục con nằm bên trong danh sách hoặc bên ngoài danh sách.*/
+}
+ul li {
+    background-color: aqua;
+    padding: 0;
+    margin: 16px;
+}
