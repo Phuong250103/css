@@ -1,0 +1,24 @@
+.inline{
+    background-color: red;
+    border: 1px solid green;
+    display: inline; /* Gộp vào cùng một hàng */
+}
+.block {
+    background-color: green;
+    border: 1px solid red;
+    display: block; /* tách thành nhiều hàng */
+}
+img{
+    width: 150px;
+    height: 150px;
+    top: 55px;
+    left: 35px;
+    position: absolute; /*Dùng để thiết lập vị trí của một phần tử nhưng nó sẽ luôn nằm trong một phần tử mẹ đang là relative.*/
+    
+}
+.relative{
+    background-color: green;
+    width: 400px;
+    height: 400px;
+    position: relative; /*Dùng để thiết lập một phần tử sử dụng các thuộc tính position mà không làm ảnh hưởng đến việc hiển thị ban đầu.*/
+}
