@@ -42,3 +42,10 @@ div {
     height: 300px;
     float: right;
  }
+ a:hover { /* a:hover khi di chuyển chuột đến sẽ chuyển sang màu được thiết lập */
+   color: green;
+ }
+ a:active { /* a:active khi nhấp chuột vào sẽ chuyển sang màu đc thiết lập */
+   background-color: yellow;
+   color: red;
+ }
