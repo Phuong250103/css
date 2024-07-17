@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+#menu ul {
+    background: green;
+    width: 250px;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+}
+#menu ul li {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid white;
+    padding: 0 0 0 1em;
+}
+#menu ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+#menu ul li a:hover {
+    color: tomato;
+    background: aqua;
+}
+#menu ul li > .sub_menu {
+    position: absolute;
+    display: none;
+}
+#menu ul li:hover .sub_menu {
+    display: block;
+    left: 250px;
+    top: 0;
+}
