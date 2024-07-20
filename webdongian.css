@@ -30,7 +30,7 @@ body {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    display: block;
+    display: block; /* Giúp phủ đầy màu thẻ */
 }
 #menu ul li a:hover {
     color: tomato;
